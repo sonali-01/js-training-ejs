@@ -1,7 +1,6 @@
-let a = "#######";
-let b = "";
-let i;
-for (i = 0; i < a.length; i++) {
-  b = b + a[i];
-  console.log(b);
+"use strict";
+let a = "#";
+while (a.length <= 7) {
+  console.log(a);
+  a = a + "#";
 }
