@@ -1,5 +1,6 @@
-let a = [];
+"use strict";
 function range(s, e) {
+  let a = [];
   for (let i = s; i <= e; i++) {
     a.push(i);
   }
