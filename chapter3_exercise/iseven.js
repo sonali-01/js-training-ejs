@@ -1,4 +1,5 @@
 "use strict";
+//Program to check a number is even using recursive funciton
 function abs(x) {
   return x > 0 ? x : -x;
 }
